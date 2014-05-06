@@ -6,9 +6,12 @@ VALUES
 
 INSERT INTO F1
 VALUES
-('E', 'D', FALSE, 'E is een superkey'),
+('E', 'D', FALSE, 'E is een superkey');
 
 INSERT INTO F2
 VALUES
-('ABC', 'EF', FALSE, 'ABC is een superkey'),
-('D', 'A', TRUE, 'D is geen superkey');
+('ABC', 'EF', FALSE, 'ABC is een superkey');
+
+INSERT INTO F3
+('D', 'A', FALSE, 'D is een superkey');
+
